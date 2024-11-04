@@ -2,7 +2,6 @@
 
 ## Deep Generative Approaches to Network Science for Social System Simulations
 
-[Link to Documentation](https://docs.google.com/document/d/1N1HdnOBnzc_9AIsw1VWkdKtQIUnQEI6OmXBt4ObQOOs/edit#heading=h.kl61q9kwiq7o)
 
 **Authors:** Siying Ding, Miontranese Green, Amiri Hayes, Mariia Sinkevich
 
