@@ -1,28 +1,29 @@
-#Network Fusion for Vaccination Probability Estimation
+# Network Fusion 
 
-##Overview
+## Overview
 
 This project integrates egocentric and sociocentric datasets to estimate vaccination probabilities across a population network. The code processes demographic data, constructs an egocentric mixing matrix, and iteratively updates vaccination probabilities using both egocentric and sociocentric information.
 
-#Required Libraries:
+## Required Libraries:
 
-numpy
-pandas
-networkx
-matplotlib
-tqdm
-re
+* numpy
+* pandas
+* networkx
+* matplotlib
+* tqdm
+* re
 
 
-#The code uses three primary data files:
+## The code uses three primary data files:
 
 NDSSL Node and Connection Data:
-contact_marginal.csv: Contains sociocentric connection data between individuals.
-demog_person.csv: Contains demographic data of individuals.
+* contact_marginal.csv: Contains sociocentric connection data between individuals.
+* demog_person.csv: Contains demographic data of individuals.
+  
 GraphML Network File:
-g_full_union.graphml: Contains the network structure of individuals and their attributes for constructing the egocentric mixing matrix.
+* g_full_union.graphml: Contains the network structure of individuals and their attributes for constructing the egocentric mixing matrix.
 
-#How to Run the Code
+## How to Run the Code
 
 
 1. Load Node and Connection Data
@@ -39,6 +40,6 @@ Utilize sociocentric connection data to iteratively update vaccination probabili
 Save the final node vaccination probabilities to fused_network.csv.
 The code iteratively updates vaccination probabilities and checks for convergence within a specified number of iterations (max_iter).
 
-*The final results, including vaccination probabilities for each individual, will be saved to fused_network.csv.
+The final results, including vaccination probabilities for each individual, will be saved to fused_network.csv.
 
 
